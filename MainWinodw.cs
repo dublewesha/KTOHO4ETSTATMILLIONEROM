@@ -21,8 +21,8 @@ namespace KTOHO4ETSTATMILLIONEROM
         public MainWinodw()
         {
             InitializeComponent();
-            listBox1.ForeColor = Color.White;
-            listBox1.BackColor = Color.MidnightBlue;
+            //listBox1.ForeColor = Color.White;
+            //listBox1.BackColor = Color.MidnightBlue;
             labelTimer.Visible = false;
             label2.Visible = false;
             labelLose.Visible = false;
@@ -270,6 +270,17 @@ namespace KTOHO4ETSTATMILLIONEROM
             if (CheatModeStatus)
                 CheatMode();
             buttonSwap.Enabled = false;
+        }
+        static int count_click = 0;
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (count_click > 10)
+            {
+                CheatModeStatus = true;
+                NextQuestion();
+            }
+            else
+                count_click++;
         }
     }
 }

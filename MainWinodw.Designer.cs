@@ -54,10 +54,11 @@
             this.label1.Size = new System.Drawing.Size(545, 84);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonAnswer1
             // 
-            this.buttonAnswer1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.buttonAnswer1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonAnswer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAnswer1.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAnswer1.Location = new System.Drawing.Point(194, 109);
@@ -70,7 +71,7 @@
             // 
             // buttonAnswer2
             // 
-            this.buttonAnswer2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.buttonAnswer2.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonAnswer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAnswer2.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAnswer2.Location = new System.Drawing.Point(501, 109);
@@ -83,7 +84,7 @@
             // 
             // buttonAnswer3
             // 
-            this.buttonAnswer3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.buttonAnswer3.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonAnswer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAnswer3.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAnswer3.Location = new System.Drawing.Point(195, 255);
@@ -96,7 +97,7 @@
             // 
             // buttonAnswer4
             // 
-            this.buttonAnswer4.BackColor = System.Drawing.Color.MidnightBlue;
+            this.buttonAnswer4.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonAnswer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAnswer4.ForeColor = System.Drawing.Color.AliceBlue;
             this.buttonAnswer4.Location = new System.Drawing.Point(501, 255);
